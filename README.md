@@ -17,7 +17,6 @@ Introduction module on data structures and algorithms including:
 ### Linear Search
 
 ```
-// Linear search
 function indexOf(array, value) {
   for (let i = 0; i < array.length; i++) {
     if (array[i] === value) {
@@ -54,10 +53,9 @@ function binarySearch(array, value, start, end) {
 }
 ```
 
-### Searching and Traversal in a tree
+### Searching and Traversal in a tree - DFS & BFS
 
 ```
-// Setup a binary search tree for searching trees
 class BinarySearchTree {
   constructor(key = null, value = null, parent = null) {
     this.key = key;
